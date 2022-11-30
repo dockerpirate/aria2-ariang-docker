@@ -4,9 +4,9 @@ env:
   global:
     - DOCKER_REPO=dockerpirate/aria2 
     - ALPINE_M=3
-    - ALPINE_P=12
-    - ARIA_M=1.35.0
-    - ARIA_P=r0
+    - ALPINE_P=16
+    - ARIA_M=1.36.0
+    - ARIA_P=r1
 before_install:
   - curl -fsSL https://get.docker.com | sh
   - echo '{"experimental":"enabled"}' | sudo tee /etc/docker/daemon.json
