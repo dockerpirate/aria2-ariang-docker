@@ -2,7 +2,7 @@ dist: xenial
 sudo: required
 env:
   global:
-    - DOCKER_REPO=dockerpirate/aria2 
+    - DOCKER_REPO=dockerpirate/aria2-ariang
     - ALPINE_M=3
     - ALPINE_P=16
     - ARIA_M=1.36.0
